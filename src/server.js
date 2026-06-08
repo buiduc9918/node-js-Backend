@@ -18,7 +18,11 @@ configViewEngine(app);
 //khai báo route
 app.use('/v1/api/', apiRoutes);
 app.use('/', getHomepage);
+// dieu hướng đến trang chủ
+const webAPI = express.Router();
+webAPI.get('/', getHomepage) 
 
+app.use('/web/api/', webAPI);
 
 (async () => {
     try {
