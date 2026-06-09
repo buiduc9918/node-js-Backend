@@ -25,4 +25,5 @@ Các bước cài đặt: (chế độ development)
 3. Update file .env (nếu cần thiết)
 4. Chạy dự án: npm run dev
 
+ngay 2
 
